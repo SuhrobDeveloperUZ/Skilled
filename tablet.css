@@ -1,0 +1,99 @@
+/* TABLET */
+
+@media screen and (max-width: 991.9px) {
+    .box {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+    }
+
+    .hero-content {
+        max-width: 420px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 25px 0 24px;
+    }
+
+    .get2 {
+        height: 56px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .courses {
+        padding-bottom: 86px;
+    }
+
+    .b1t {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .b1 {
+        padding: 56px 21px 139px 32px;
+        width: calc((100% - 10px) / 2);
+        height: 259px;
+    }
+
+    .title11 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .text11 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .get3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .women {
+        width: 373px;
+        height: 598px;
+        position: absolute;
+        z-index: -10;
+        background-image: url('./images/image-hero-tablet.png');
+        background-size: 640px 640px;
+        background-position: left bottom;
+    }
+
+    .cards {
+        gap: 56px 10px;
+    }
+
+    .bb {
+        width: calc((100% - 10px) / 2);
+        height: 283px;
+        padding: 24px 32px;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+
+    .get4 {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 9px 24px 11px;
+    }
+}
+
+/* /TABLET */

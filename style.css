@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    overflow-x: hidden;
+
+}
+
+.logo {
+    object-fit: contain;
+    object-position: center;
+}
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header {
+    padding-top: 24px;
+}
+
+.get {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #13183F;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+.get:hover {
+    background-color: #666CA3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    margin-bottom: 29px;
+}
+
+.hero-text {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-bottom: 40px;
+}
+
+.get2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 63px;
+    border: none;
+    cursor: pointer;
+}
+
+.get2:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.b1t {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.b1 {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    padding-top: 64px;
+    padding-bottom: 138px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: calc((100% - 60px) / 3);
+    height: 300px;
+
+}
+
+.bb {
+    width: calc((100% - 60px) / 3);
+    height: 300px;
+    padding: 0px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+}
+
+.title11 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+
+.get3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.get3:hover {
+    color: #FFA7C3;
+}
+
+.text11 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    display: flex;
+
+}
+
+.get4 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+.get4:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+.logo123 {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    transform: translateY(-50%);
+}
+
+.footer {
+    background-color: #13183F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 39px 36px 40px;
+}
+
+.two {
+    width: 100%;
+}
+
+.hero {
+    margin-bottom: 140px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 30px;
+}
+
+.courses {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    min-height: 1000px;
+}
+
+.hero {
+    /* position: relative; */
+}
+
+.women {
+    width: 726px;
+    height: 791px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: -10;
+    background-image: url('./images/image-hero-desktop.png');
+    background-position: left bottom;
+}
+
+.header {
+    margin-bottom: 185.57px;
+}
+
+.footer>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
